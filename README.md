@@ -41,47 +41,7 @@ At the end of the day I want to have my feature to work as planned, with the the
 Estimated Time Consumption: 2 days.
 
 Create the bare bone front end. 
-'''
-<WeekComponent>
-<h1>{ WEEK TEXT }</h1>
-	<Day />
-	<Day />
-	<Day />
-	<Day />
-	<Day />
-</WeekComponent>
 
-<Day>
-	<Exercise />
-<Exercise />
-<Exercise />
-<Exercise />
-<Exercise />
-<Exercise />
-</Day>
-
-<Exercise>
-	<h1>{ EXERCISE TEXT }</h1>
-	<CodeAndComs { CODE } { COMMENTS } />
-</Exercise>
-
-<CodeAndComs>
-	<Code>{ CODE }</Code>
-	<Comment { COMMENT } />
-<Code>{ CODE }</Code>
-	<Comment { COMMENT } />
-<Code>{ CODE }</Code>
-	<Comment { COMMENT } />
-</CodeAndComs>
-
-<Code>
-	<div></div>
-</Code>
-
-<Comment>
-	<div></div>
-</Comment>
-'''
 *GOAL:
 	To display some real code and comments.
 	Build get and set methods for the data
@@ -89,26 +49,9 @@ Create the bare bone front end.
 	use MaterialDesign as a philosophy and because of lack of talent
 
 
-2. Milestone 
+# 2. Milestone 
 
 ETC 1 day
 
 Build a node.js sever without the use of a complicated framework. Use REST API and AJAX (or whatever is usefull) to send the same data as used in Milestone 1 to send it to the client on demand. 
- 
-var http = require('http'),
-    fs = require('fs');
-
-
-fs.readFile('./public/index.html', function (err, html) {
-    if (err) {
-        throw err; 
-    }       
-    http.createServer(function(request, response) {  
-        response.writeHeader(200, {"Content-Type": "text/html"});  
-        response.write(html);  
-        response.end();  
-    }).listen(8000);
-});
-
-
 

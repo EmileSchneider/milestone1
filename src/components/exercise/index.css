@@ -1,0 +1,7 @@
+.Paper {
+  height: 100;
+  width: 100;
+  margin: 200px;
+  textAlign: 'center';
+  display: 'inline-block';
+}

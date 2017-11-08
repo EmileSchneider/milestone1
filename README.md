@@ -88,7 +88,7 @@ Display the same data in the same fashion as in milestone1. Create a DB on the D
 Create a simple node js server
 
 2. Step:
-Serve the react-app over that server
+Serve the webpack react-app over that server
 
 3. Step: 
 Create a DB which holds the Data
@@ -102,7 +102,26 @@ ETC 1 Day
 
 _Write the infrastructure layer MAL0 with the Api Calls to GitHub. Hardcode the addresses/use the same demo repo as in ML1 and ML2._
 
-GOAL:
+**GOAL:**
 Design a expandable architechture to add functionality later. 
 
+1. Step:
+if REQEUSTEDDATA isIn DB:
+	return DATA
+else
+	callAPI
+	updateDB
+	return DATA
+	
+2. Step:
+implement a TestRepo on Github
+MAL1 \*TestRepo points to that Repo and requests some DATA 
+
+MAL0 returns DATA
+
+# 4. Milestone
+
+ETC 1 Day + WE
+
+_Write user authentification with GitHubLogIn. Create a controlpage to manualy genearte ExerciseComponents with links to github repos and data_
 

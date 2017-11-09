@@ -74,6 +74,13 @@ Do the same with a pull request, and the comments to the pull request.
 6. Step:
 Display the comments
 
+![Alt text](https://github.com/EmileSchneider/milestone1/blob/master/Screenshot%202017-11-09%20at%2011.29.01.png)
+
+![Alt text](https://github.com/EmileSchneider/milestone1/blob/master/Screenshot%202017-11-09%20at%2021.36.15.png)
+
+![Alt text](https://github.com/EmileSchneider/milestone1/blob/master/Screenshot%202017-11-09%20at%2021.36.24.png)
+
+![Alt text](https://github.com/EmileSchneider/milestone1/blob/master/Screenshot%202017-11-09%20at%2021.36.33.png)
 
 # 2. Milestone 
 

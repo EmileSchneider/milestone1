@@ -1,0 +1,11 @@
+.card {
+  margin: 1em 0em 0em 0em;
+}
+.card * {
+  font-family: monospace;
+  background-color: #FFC107 !important;
+}
+.card p {
+  margin: 1em 1em 1em 1em;
+  padding-bottom: 2em;
+}
